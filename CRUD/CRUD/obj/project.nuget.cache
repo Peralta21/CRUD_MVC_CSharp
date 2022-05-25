@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BmOZlJr89BxgyOke4Qh29DYsrZHl8tC6hJbt3xWMCDpqAVEYZLOMPafsnIGLk8qRw+R5VVrDStZZiiYBLTe36w==",
+  "dgSpecHash": "q/kVEmeQJLilb26J67WQmE7DzAY7xHqQJsopzrs9fsrqjbj3lh8MnGMdBKw0POXsCKdv/u++4Z/jpwnvxa7tUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\crisp\\Desktop\\Quarzo\\CRUD\\CRUD\\CRUD.csproj",
+  "projectFilePath": "C:\\Users\\crisp\\Desktop\\CRUD_MVC_CSharp\\CRUD\\CRUD\\CRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\crisp\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\crisp\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

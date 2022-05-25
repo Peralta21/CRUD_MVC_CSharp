@@ -9067,11 +9067,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\crisp\\Desktop\\Quarzo\\CRUD\\CRUD\\CRUD.csproj",
+      "projectUniqueName": "C:\\Users\\crisp\\Desktop\\CRUD_MVC_CSharp\\CRUD\\CRUD\\CRUD.csproj",
       "projectName": "CRUD",
-      "projectPath": "C:\\Users\\crisp\\Desktop\\Quarzo\\CRUD\\CRUD\\CRUD.csproj",
+      "projectPath": "C:\\Users\\crisp\\Desktop\\CRUD_MVC_CSharp\\CRUD\\CRUD\\CRUD.csproj",
       "packagesPath": "C:\\Users\\crisp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\crisp\\Desktop\\Quarzo\\CRUD\\CRUD\\obj\\",
+      "outputPath": "C:\\Users\\crisp\\Desktop\\CRUD_MVC_CSharp\\CRUD\\CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\crisp\\AppData\\Roaming\\NuGet\\NuGet.Config",
