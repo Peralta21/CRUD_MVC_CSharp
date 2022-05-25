@@ -1,0 +1,50 @@
+﻿@model List<ProductoModel>
+
+@{
+    ViewData["Title"] = "Buscar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+  <div class="card-header">
+    Lista productos
+  </div>
+  <div class="card-body">
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a asp-action="Guardar" asp-controller="Producto" class="btn btn-success"> <i class="bi bi-plus-circle"></i> Agregar</a>
+        <form class="d-flex" method="post">
+          <input name="idCategoria" class="form-control me-2" type="text" placeholder="Search" aria-label="Search">
+          <button asp-action="Buscar" asp-controller="Producto" class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <hr />
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Categoria</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.nIdProduct</td>
+                        <td>@item.cNombProdu</td>
+                        <td>@item.nPrecioProd</td>
+                        <td>@item.cNombCateg</td>
+                        <td>
+                            <a asp-action="Editar" asp-controller="Producto" class="btn btn-primary btn-sm" asp-route-idProducto="@item.nIdProduct"> <i class="bi bi-pencil-square"></i></a>
+                            <a asp-action="Eliminar" asp-controller="Producto" class="btn btn-danger btn-sm" asp-route-idProducto="@item.nIdProduct"> <i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+  </div>
+</div>
